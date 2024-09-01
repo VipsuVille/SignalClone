@@ -6,6 +6,8 @@ import { query, orderBy, onSnapshot, collection, addDoc, Timestamp, Firestore, s
 //import { SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 import { auth, db } from '../firebase';
+
+
 //ChatScreen for invidual chats using route to get
 // unique information from chats
 const ChatScreen = ({ navigation, route }) => {
@@ -18,6 +20,7 @@ const scrollViewRef = useRef(null);
         headerBackTitleVisible: false,
         headerTitleAlign: "left",
         headerTitle: () => (
+            console.log(messages[0]?.data),
             <View style = {{
                 flexDirection: "row",
                 alignItems: "center",
@@ -26,7 +29,7 @@ const scrollViewRef = useRef(null);
                 <Avatar
                     rounded
                     source={{
-                    uri: messages[0]?.data.photoURL,
+                    uri: messages[0]?.data.photoURL
                     }}
                 />
             <Text

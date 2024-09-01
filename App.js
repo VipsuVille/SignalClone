@@ -28,7 +28,7 @@ export default function App() {
       screenOptions={{globalSreenOptions}}>
         <Stack.Screen options={{title: "Signal",}} name="Login" component={LoginScreen} />
         <Stack.Screen options={{title: "Lets Register!",}} name="Register" component={RegisterScreen} />
-        <Stack.Screen options={{title: "Lets Register!",}} name="Home" component={HomeScreen} />
+        <Stack.Screen  options={{title: "Lets Register!",}} name="Home" component={HomeScreen} />
         <Stack.Screen name="AddChat" component={AddChatScreen} />
         <Stack.Screen name="Chat" component={ChatScreen} />
 

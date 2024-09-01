@@ -30,7 +30,7 @@ return (
             rounded
             source={{
                 
-                uri: chatMessages?.[0]?.photoURL || 'https://placekitten.com/200/200'
+                uri: chatMessages?.[0]?.photoURL 
             }}/>
     <ListItem.Content>
         <ListItem.Title style={{ fontWeight: "800"}}>

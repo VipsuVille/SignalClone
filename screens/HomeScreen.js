@@ -54,7 +54,7 @@ const HomeScreen = ({navigation}) => {
                 setUser(authUser); // Set user data
 
         navigation.setOptions({
-            title: auth.currentUser.displayName || "LOADINGG....",
+            title: auth.currentUser.displayName || "Loading..",
             headerStyle: { backgroundColor: "#fff" },
             headerTitleStyle: { color: "black" },
             headerTintColor: "black",

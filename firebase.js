@@ -13,12 +13,12 @@ import Constants from 'expo-constants';
 
 //FIREBASE ALLE yli 8.0
 const firebaseConfig = {
-    apiKey: Constants.manifest.extra.FIREBASE_API_KEY,
-    authDomain: Constants.manifest.extra.FIREBASE_AUTH_DOMAIN,
-    projectId: Constants.manifest.extra.FIREBASE_PROJECT_ID,
-    storageBucket: Constants.manifest.extra.FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: Constants.manifest.extra.FIREBASE_MESSAGING_SENDER_ID,
-    appId: Constants.manifest.extra.FIREBASE_APP_ID
+    apiKey: "AIzaSyDXrFnHa7kKW8lTBGguxGXdJdTIHEeHWDk",
+    authDomain: "signalclone-89f1c.firebaseapp.com",
+    projectId: "signalclone-89f1c",
+    storageBucket: "signalclone-89f1c.appspot.com",
+    messagingSenderId: "972588067337",
+    appId: "1:972588067337:web:18e4e878257b77587ba6d8"
   };
   console.log('Firebase Config:', firebaseConfig);
   console.log('Constants.manifest.extra:', Constants.manifest.extra);

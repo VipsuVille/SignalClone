@@ -20,6 +20,9 @@ const firebaseConfig = {
     messagingSenderId: Constants.manifest.extra.FIREBASE_MESSAGING_SENDER_ID,
     appId: Constants.manifest.extra.FIREBASE_APP_ID
   };
+  console.log('Firebase Config:', firebaseConfig);
+  console.log('Constants.manifest.extra:', Constants.manifest.extra);
+
 
 let app, auth, storage;
 if (!getApps().length) {
